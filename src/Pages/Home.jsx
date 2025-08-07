@@ -3,7 +3,7 @@ function Home() {
   return (
     <div className="font-jost">
 
-        <div className="bg-[url('./slide_05.jpg')] bg-secondary bg-center bg-cover lg:bg-contain bg-no-repeat flex items-center h-screen px4 lg:px-40">
+        <div style={ {backgroundImage: "url('./slide_05.jpg')"}} className=" bg-secondary bg-center bg-cover lg:bg-contain bg-no-repeat flex items-center h-screen px4 lg:px-40">
             <div>
                 <h2 className="text-lx font-bold">New Collection</h2>
                 <h1 className="text-5xl font-bold mt-2">Luxury Without <br/>Labels</h1>
