@@ -21,7 +21,7 @@ function Home() {
                 <p className="text-center">Explore our best sellers</p>
 
                 <div>
-
+          
                       
                             <Card/>
 
@@ -29,7 +29,7 @@ function Home() {
                 </div>
 
                 <div className="flex justify-center mt-8">
-                  <button className="bg-transparent px-8 py-2 border border-primary hover:bg-primary hover:text-white transition-all">Explore More</button>
+                  <button className="bg-transparent px-8 py-2 border border-primary hover:bg-primary hover:text-white transition-all">Explore More </button>
                 </div>
 
 
