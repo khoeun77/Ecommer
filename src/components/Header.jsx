@@ -1,4 +1,6 @@
 import { useActionState, useState } from "react"
+import { NavLink } from "react-router-dom"
+
 
 function Header() {
   const [isActiveNavbar, setIsActiveNavbar] = useState(false)
@@ -23,16 +25,16 @@ function Header() {
 
                             <ul className=" hidden lg:flex items-center gap-4">
                                 <li>
-                                  <a href="" className="hover:underline decoration-yellow-600">Home</a>
+                                  <NavLink to="/" className="hover:underline decoration-yellow-600 aria-[current=page]:underline aria-[current=page]:text-yellow-600">Home</NavLink>
                                 </li>
                                 <li>
-                                  <a href="" className="hover:underline decoration-yellow-600">Products</a>
+                                  <NavLink to="/Products" className="hover:underline decoration-yellow-600 aria-[current=page]:underline aria-[current=page]:text-yellow-600">Products</NavLink>
                                 </li>
                                 <li>
-                                  <a href="" className="hover:underline decoration-yellow-600">Contact</a>
+                                  <NavLink to="/Contact" className="hover:underline decoration-yellow-600 aria-[current=page]:underline aria-[current=page]:text-yellow-600">Contact</NavLink>
                                 </li>
                                 <li>
-                                  <a href="" className="hover:underline decoration-yellow-600">About</a>
+                                  <NavLink to="/About" className="hover:underline decoration-yellow-600 aria-[current=page]:underline aria-[current=page]:text-yellow-600">About</NavLink>
                                 </li>
                             </ul>
 
