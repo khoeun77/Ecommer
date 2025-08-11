@@ -3,6 +3,7 @@ import RootLayouts from "./Layouts/RootLayouts"
 import Home from "./Pages/Home"
 import Products from "./Pages/Products"
 import Contact from "./Pages/Contact"
+import About from "./Pages/About"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Route index element={<Home />}></Route>
               <Route path="/products" element={<Products />}></Route>
               <Route path="/contact" element={<Contact />}></Route>
+              <Route path="about" element={<About />}></Route>
 
           </Route>
 
