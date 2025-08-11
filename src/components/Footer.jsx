@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Footer() {
   return (
     <footer className="bg-primary py-4 text-white"> 
@@ -10,13 +12,13 @@ function Footer() {
               <ul className="flex items-center gap-4">
 
                   <li>
-                    <a href="">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <a href="">Contact Us</a>
+                    <Link to="Contact">Contact Us</Link>
                   </li>
                   <li>
-                    <a href="">About Us</a>
+                    <Link to="About">About Us</Link>
                   </li>
                   <li>
                     <a href="">Term and Conditional</a>
